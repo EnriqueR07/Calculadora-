@@ -1,0 +1,85 @@
+*::before *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    background-color:rgb(160, 88, 88);
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:larger;
+}
+.boton{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 169, 169);
+        border: 0;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 10px;
+        }
+
+
+.nombre{
+    width: 1000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.nombre{
+    color: blueviolet;
+    background-color: floralwhite;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    animation: jello-diagonal .9s linear both
+}
+
+@keyframes jello-diagonal {
+    0% {
+        transform: skew(0deg 0deg)
+    }
+
+    30% {
+        transform: skew(25deg 25deg)
+    }
+
+    40% {
+        transform: skew(-15deg, -15deg)
+    }
+
+    50% {
+        transform: skew(15deg, 15deg)
+    }
+
+    65% {
+        transform: skew(-5deg, -5deg)
+    }
+
+    75% {
+        transform: skew(5deg, 5deg)
+    }
+
+    100% {
+        transform: skew(0deg 0deg)
+    }
+}
+
+ 
