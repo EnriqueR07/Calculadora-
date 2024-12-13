@@ -14,8 +14,23 @@ xhr.addEventListener('readystatechange', function () {
             document.getElementById("imagen").src = "./img/corazon roto.png"}
             else if(resultado.percentage >50){
                 document.getElementById("imagen").src = "./img/corazón png.png"}
-   
-    }
+
+        if(resultado.percentage <50){
+            ducumentos.get
+        }
+        document.getElementById(" backgroundImage").innerHTML=resultado;
+        if(resultado.percentage <50){
+            document.getElementById("background-color").src = "" }
+            else if (resultado.porcentage <50){
+            }
+  color = document.getElementById("color").innerHTML;
+if (resultado.percentage <50){
+    document.getElementById("color").innerHTML=resultado = "#0000FF";
+}
+else if (resultado.percentage >50){
+    document.getElementById("color").innerHTML=resultado = "#FF0000";
+}
+}
 });
 
 document .getElementById("afegir").addEventListener("click", function () {
